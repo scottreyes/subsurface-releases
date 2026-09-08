@@ -1,0 +1,43 @@
+name: Bug report
+description: Report a problem with Subsurface.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Subsurface. Reports here are public and require a GitHub account.
+        Please do not include passwords, tokens, private file paths, or your full software inventory. Review screenshots before attaching them.
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Describe the problem. You can attach an optional screenshot here.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Subsurface
+        2. Go to…
+        3. Click…
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: App and Mac details
+      description: Filled in when opened from Help → Report a bug. Otherwise, enter your app version, macOS version, and Apple Silicon or Intel.
+      placeholder: |
+        Subsurface:
+        macOS:
+        Architecture:
+    validations:
+      required: true
