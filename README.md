@@ -17,3 +17,7 @@ These early builds are ad-hoc signed and have not been notarized by Apple. macOS
 Subsurface can check for new releases from its app menu or Settings and download a verified ZIP. Installation remains manual.
 
 This repository contains public app downloads and release notes. The source repository is maintained separately. The first release will appear after the publishing setup is complete.
+
+## Report a bug
+
+Use **Help → Report a bug…** in Subsurface, or [open a bug report](https://github.com/scottreyes/subsurface-releases/issues/new?template=bug-report.yml). A GitHub account is required and reports are public. Include what happened, what you expected, and steps to reproduce it. Screenshots are optional.
